@@ -1,0 +1,42 @@
+/* Container for the 3x3 boxes */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(3, 60px);
+    gap: 2px;
+    margin: 20px;
+  }
+
+  /* Each box style */
+  .box {
+    border: 1px solid #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dff0ff;
+  }
+
+  /* Specific box with 5px left margin */
+  .left-margin {
+    margin-left: 5px;
+  }
+
+  /* Specific box with 5px right margin */
+  .right-margin {
+    margin-right: 5px;
+  }
+
+  /* Specific box with 5px top margin */
+  .top-margin {
+    margin-top: 5px;
+  }
+/* Specific box with 5px bottom margin */
+  .bottom-margin {
+    margin-bottom: 5px;
+  }
+
+  /* Boxes for demonstration */
+  .label-box {
+    font-size: 12px;
+    text-align: center;
+  }
