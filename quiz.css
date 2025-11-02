@@ -1,0 +1,59 @@
+.main-container {
+  background: linear-gradient(135deg, #80deea, #4dd0e1);
+  margin: 1%;
+  float: center;
+  width: auto;
+  height: 150px;
+  border: 2px solid red;
+  border-radius: 20px;
+  box-shadow: rgb(252, 2, 2) 5px 5px 10px;
+  text-align: center;
+  text-overflow: clip;
+  margin:auto;
+  overflow: hidden;
+}
+
+.olderbrother-container {
+background: rgb(255, 255, 255);
+width: 78%;
+height:100px;
+border:2px solid yellow;
+border-radius:20px;
+border-collapse: collapse;
+box-shadow: rgb(255, 255, 0) 5px 5px 10px;
+margin: auto;
+}
+
+.baby1 {
+  background:white;
+  margin-left:300px;
+  border-radius:20px;
+  width: 18%;
+  border: 2px solid blue;
+  box-shadow: rgb(0, 0, 255) 5px 5px 10px;
+  text-align: center;
+  float: left;
+}
+
+.baby2 {
+  background:white;
+  margin-left: 600px;
+  border-radius:20px;
+  width: 18%;
+  border: 2px solid blue;
+  box-shadow: rgb(0, 0, 255) 5px 5px 10px;
+  text-align: center;
+  
+}
+
+.baby3 {
+  background:white;
+  margin-left: 900px;
+ 
+  border-radius:20px;
+  width: 18%;
+  border: 2px solid blue;
+  box-shadow: rgb(0, 0, 255) 5px 5px 10px;
+  text-align: center;
+}
+

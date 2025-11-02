@@ -1,0 +1,47 @@
+.box {
+width: 200px;
+height: 200px;
+position: absolute;
+color: white;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+}
+
+.box:hover {
+transform: scale(1.1);             
+opacity: 0.8;
+cursor: pointer;
+z-index: 4;/* Bring to front on hover */
+}
+
+
+
+.box1 {
+top: 100px;
+left: 100px;
+z-index: 1;
+}
+
+.box2 {
+top: 150px;
+left: 150px;
+z-index: 2;
+}
+
+.box3 {
+top: 50px;
+left: 50px;
+z-index: 3;
+}
+
+.container {
+position: relative; 
+width: 400px;
+transform:  translate(10%, 0);
+height: 400px;
+margin: 0 auto;  
+overflow: hidden;   
+}

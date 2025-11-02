@@ -1,0 +1,89 @@
+.body {
+font-family: Arial, sans-serif;
+}
+
+.container {
+border: 2px solid #0000cc;
+border-radius: 20px;
+padding: 10px;
+margin: 10px;
+}
+
+.section-title {
+color: #000066;
+}
+
+.padding-group {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.padding-group p {
+border: 2px solid #0000cc;
+border-radius: 20px;
+width: 150px;
+height: 100px;
+}
+
+.padding-box {
+border: 2px solid #0000cc;
+width: 180px;
+height: 100px;
+}
+
+.single-padding {
+display: flex;
+gap: 20px;
+}
+
+.single-padding p {
+border: 2px solid #0000cc;
+border-radius: 20px;
+box-shadow: black 2px 2px 5px;
+width: 150px;
+height: 100px;
+}
+
+/* Single Padding Classes */
+.left-padding {
+padding-left: 10px;
+}
+
+.right-padding {
+padding-right: 15px;
+}
+
+.top-padding {
+padding-top: 25px;
+}
+
+.bottom-padding {
+padding-bottom: 35px;
+}
+
+h2 {
+    color:  #000066;
+    text-align: center;
+}
+
+/* Multiple Padding Classes */
+.top-right-padding {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+right-bottom-padding {
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.bottom-left-padding {
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.left-top-padding {
+    padding-left: 35px;
+    padding-top: 35px;
+}
